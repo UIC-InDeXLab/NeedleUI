@@ -11,7 +11,7 @@ const BenchmarkPage = () => {
     const [showLabels, setShowLabels] = useState(true);
     const [status, setStatus] = useState("init");
 
-    const NEEDLE_URL = 'http://localhost:8006';
+    const NEEDLE_URL = 'http://localhost:8007';
     const CLIP_URL = 'http://localhost:8000';
     const FEEDBACK_API = 'http://localhost:8009/submit-feedback';
 
