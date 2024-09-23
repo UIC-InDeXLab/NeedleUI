@@ -3,8 +3,8 @@ import useWebSocket, {ReadyState} from 'react-use-websocket';
 import axios from 'axios';
 import './SearchPage.css';
 
-const API_URL = 'http://localhost:8001';
-const WEBSOCKET_URL = 'ws://localhost:8001/feedback';
+const API_URL = 'http://localhost:8007';
+const WEBSOCKET_URL = 'ws://localhost:8007/feedback';
 
 const SearchPage = () => {
     const [query, setQuery] = useState("landscape");
