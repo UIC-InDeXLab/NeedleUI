@@ -26,8 +26,8 @@ const BenchmarkPage = () => {
                     params: {
                         n: 20,
                         k: 4,
-                        image_size: 768,
-                        generator_engine: "stable-diffusion",
+                        image_size: 512,
+                        generator_engine: "dall-e",
                     }
                 }),
                 axios.get(`${CLIP_URL}/search?query=${query}`, {})

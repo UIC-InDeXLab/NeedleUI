@@ -64,7 +64,7 @@ const SearchPage = () => {
                     n: n,
                     k: k,
                     image_size: imageSize,
-                    generator_engine: "stable-diffusion",
+                    generator_engine: "dall-e",
                 },
             });
             setFinalResults(response.data.results); // Store the final filenames
