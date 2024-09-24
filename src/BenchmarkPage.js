@@ -26,7 +26,7 @@ const BenchmarkPage = () => {
                     params: {
                         n: 20,
                         k: 4,
-                        image_size: 512,
+                        image_size: 1024,
                         generator_engine: "dall-e",
                     }
                 }),
